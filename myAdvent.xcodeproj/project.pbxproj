@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		11B37D0A217A3F76004E0B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D09217A3F76004E0B68 /* AppDelegate.swift */; };
-		11B37D0C217A3F76004E0B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D0B217A3F76004E0B68 /* ViewController.swift */; };
 		11B37D0F217A3F76004E0B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B37D0D217A3F76004E0B68 /* Main.storyboard */; };
 		11B37D12217A3F76004E0B68 /* myAdvent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D10217A3F76004E0B68 /* myAdvent.xcdatamodeld */; };
 		11B37D14217A3F79004E0B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B37D13217A3F79004E0B68 /* Assets.xcassets */; };
 		11B37D17217A3F79004E0B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B37D15217A3F79004E0B68 /* LaunchScreen.storyboard */; };
 		11B37D22217A3F79004E0B68 /* myAdventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D21217A3F79004E0B68 /* myAdventTests.swift */; };
 		11B37D2D217A3F7A004E0B68 /* myAdventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D2C217A3F7A004E0B68 /* myAdventUITests.swift */; };
+		11B37D3F217A4823004E0B68 /* Main_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D3E217A4823004E0B68 /* Main_ViewController.swift */; };
+		11B37D42217A4F07004E0B68 /* Main_VC_Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D41217A4F07004E0B68 /* Main_VC_Layout.swift */; };
+		11B37D44217A52B0004E0B68 /* Main_VC_Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B37D43217A52B0004E0B68 /* Main_VC_Code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		11B37D06217A3F75004E0B68 /* myAdvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAdvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B37D09217A3F76004E0B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11B37D0B217A3F76004E0B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11B37D0E217A3F76004E0B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B37D11217A3F76004E0B68 /* myAdvent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myAdvent.xcdatamodel; sourceTree = "<group>"; };
 		11B37D13217A3F79004E0B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		11B37D28217A3F7A004E0B68 /* myAdventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAdventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B37D2C217A3F7A004E0B68 /* myAdventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAdventUITests.swift; sourceTree = "<group>"; };
 		11B37D2E217A3F7A004E0B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B37D3E217A4823004E0B68 /* Main_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_ViewController.swift; sourceTree = "<group>"; };
+		11B37D41217A4F07004E0B68 /* Main_VC_Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_VC_Layout.swift; sourceTree = "<group>"; };
+		11B37D43217A52B0004E0B68 /* Main_VC_Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_VC_Code.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,8 @@
 		11B37D08217A3F75004E0B68 /* myAdvent */ = {
 			isa = PBXGroup;
 			children = (
+				11B37D40217A484E004E0B68 /* Code */,
 				11B37D09217A3F76004E0B68 /* AppDelegate.swift */,
-				11B37D0B217A3F76004E0B68 /* ViewController.swift */,
 				11B37D0D217A3F76004E0B68 /* Main.storyboard */,
 				11B37D13217A3F79004E0B68 /* Assets.xcassets */,
 				11B37D15217A3F79004E0B68 /* LaunchScreen.storyboard */,
@@ -126,6 +130,16 @@
 				11B37D2E217A3F7A004E0B68 /* Info.plist */,
 			);
 			path = myAdventUITests;
+			sourceTree = "<group>";
+		};
+		11B37D40217A484E004E0B68 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				11B37D3E217A4823004E0B68 /* Main_ViewController.swift */,
+				11B37D43217A52B0004E0B68 /* Main_VC_Code.swift */,
+				11B37D41217A4F07004E0B68 /* Main_VC_Layout.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B37D0C217A3F76004E0B68 /* ViewController.swift in Sources */,
 				11B37D0A217A3F76004E0B68 /* AppDelegate.swift in Sources */,
+				11B37D42217A4F07004E0B68 /* Main_VC_Layout.swift in Sources */,
 				11B37D12217A3F76004E0B68 /* myAdvent.xcdatamodeld in Sources */,
+				11B37D44217A52B0004E0B68 /* Main_VC_Code.swift in Sources */,
+				11B37D3F217A4823004E0B68 /* Main_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
